@@ -14,12 +14,16 @@ echo ""
 echo "Good, let's update your system"
 echo ""
 
-echo "First, we update brew"
+echo "=== Brew ==="
+echo ""
+
 brew update
 brew upgrade
 
-echo "======================================"
-echo "Now, let's update your mac"
+echo ""
+echo "=== Mac ==="
+echo ""
+
 softwareupdate -l
 
 echo ""
