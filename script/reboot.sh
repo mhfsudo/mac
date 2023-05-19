@@ -11,7 +11,7 @@ echo "  /__/  /__/ /__/  /__/ /__/ 		    "
 echo "                                      "
 echo "======================================"
 echo ""
-echo "Good, let's update your system"
+echo "Good, let's make a reboot"
 echo ""
 
 brew update
