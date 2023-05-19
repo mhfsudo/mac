@@ -14,9 +14,9 @@ echo ""
 echo "Good, let's update your system"
 echo ""
 
-softwareupdate -l
 brew update
 brew upgrade
+softwareupdate -l
 
 echo ""
 echo "Good, we're done"
