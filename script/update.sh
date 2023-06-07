@@ -15,12 +15,17 @@ echo "Good, let's update your system"
 echo ""
 
 echo "First, we update brew"
+
+networksetup -setsecurewebproxystate "Wi-fi" off
+
 brew update
 brew upgrade
 
 echo "======================================"
 echo "Now, let's update your mac"
 softwareupdate -l
+
+networksetup -setsecurewebproxystate "Wi-fi" on
 
 echo ""
 echo "Good, we're done"

@@ -17,6 +17,7 @@ echo ""
 brew update
 brew upgrade
 softwareupdate -l
+networksetup -setsecurewebproxystate "Wi-fi" off
 sudo shutdown -h now
 
 echo ""
