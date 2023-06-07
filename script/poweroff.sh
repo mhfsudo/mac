@@ -14,9 +14,24 @@ echo ""
 echo "Good, see you soon"
 echo ""
 
+networksetup -setsecurewebproxystate "Wi-fi" off
+
+echo "=== Brew ==="
+echo ""
+
 brew update
 brew upgrade
+
+echo ""
+echo "=== Mac ==="
+echo ""
+
 softwareupdate -l
+
+echo ""
+echo "Good, we're done. See you soon"
+echo ""
+
 sudo shutdown -h now
 
 echo ""
