@@ -23,6 +23,13 @@ brew update
 brew upgrade
 
 echo ""
+echo "=== App Store ==="
+echo ""
+
+mas outdated
+mas upgrade
+
+echo ""
 echo "=== Mac ==="
 echo ""
 
