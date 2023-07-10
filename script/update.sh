@@ -14,8 +14,6 @@ echo ""
 echo "Good, let's update your system"
 echo ""
 
-networksetup -setsecurewebproxystate "Wi-fi" off
-
 echo "=== Brew ==="
 echo ""
 
@@ -34,8 +32,6 @@ echo "=== Mac ==="
 echo ""
 
 softwareupdate -l
-
-networksetup -setsecurewebproxystate "Wi-fi" on
 
 echo ""
 echo "Good, we're done"
