@@ -21,6 +21,12 @@ brew update
 brew upgrade
 
 echo ""
+echo "=== Codium ==="
+echo ""
+
+codium --update-extensions
+
+echo ""
 echo "=== App Store ==="
 echo ""
 
@@ -37,3 +43,4 @@ echo ""
 echo "Good, we're done"
 echo ""
 echo "=============================================================================="
+
