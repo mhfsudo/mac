@@ -20,6 +20,12 @@ echo ""
 brew update
 brew upgrade
 
+echo "=== Krew ==="
+echo ""
+
+kubectl krew update
+kubectl krew upgrade
+
 echo ""
 echo "=== Codium ==="
 echo ""
