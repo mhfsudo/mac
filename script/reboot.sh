@@ -23,6 +23,13 @@ brew update
 brew upgrade
 
 echo ""
+echo "=== Krew ==="
+echo ""
+
+kubectl krew update
+kubectl krew upgrade
+
+echo ""
 echo "=== App Store ==="
 echo ""
 

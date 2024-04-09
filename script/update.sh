@@ -20,6 +20,7 @@ echo ""
 brew update
 brew upgrade
 
+echo ""
 echo "=== Krew ==="
 echo ""
 
